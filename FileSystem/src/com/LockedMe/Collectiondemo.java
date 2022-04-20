@@ -6,7 +6,7 @@ public class Collectiondemo{
 	Scanner input=new Scanner(System.in);
 	Demof fil = new Demof();
 	int op;
-	//op=input.nextInt();
+	try {
 	do {
 	   System.out.println("LokedMe.com,Bhavani");
 	   System.out.println("enter 1:file creation");
@@ -38,7 +38,11 @@ public class Collectiondemo{
 	
 	}while(op!=0);
 	
- }
+ }catch(Exception e) {
+	 System.out.println("enter a valid numbers");
+	}
+		
+	}
 }
 	
 
